@@ -1,6 +1,6 @@
 import React from "react";
 import Video from "../../assets/vid.mp4";
-import Card from "../Card/Card";
+// import Card from "../Card/Card";
 import "./Main.css";
 import Planet from "../Planet/Planet";
 // import Navbar from "../Navbar/Navbar";
