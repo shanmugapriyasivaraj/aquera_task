@@ -7,7 +7,7 @@ import Planet from "../Planet/Planet";
 
 const Main = () => {
   return (
-    <div className="main_container">
+    <div className="main_container" id="main">
       <div className="video_bcg">
         <video
           className="vid"
