@@ -1,6 +1,7 @@
 .card_det {
   display: grid;
   grid-template-columns: auto auto auto auto;
+
   /* gap: 10px; */
   /* margin: 10px; */
 }
@@ -8,36 +9,16 @@
 @media screen and (max-width: 992px) {
   .card_det {
     display: grid;
-    grid-template-columns: auto auto auto;
-    /* gap: 10px; */
-    /* margin: 10px; */
+    grid-template-columns: auto auto;
   }
 }
 @media screen and (max-width: 768px) {
   .card_det {
     display: grid;
-    grid-template-columns: auto auto;
-    /* gap: 10px; */
-    /* margin: 10px; */
-  }
-}
-@media screen and (max-width: 600px) {
-  .card_det {
-    display: grid;
     grid-template-columns: auto;
-    /* gap: 10px; */
-    /* margin: 10px; */
   }
 }
-@media screen and (max-width: 450px) {
-  .card_det {
-    display: grid;
-    grid-template-columns: auto;
-    /* gap: 10px; */
-    /* margin: 10px; */
-  }
-}
-/* 992 600 768 450 */
+
 .pages {
   display: flex;
   align-items: flex-end;

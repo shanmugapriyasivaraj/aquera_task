@@ -9,20 +9,22 @@
   position: relative;
   z-index: 1;
 }
+@media screen and (max-width: 1024px) {
+  .main_container {
+    height: 170vh;
+    min-width: 100%;
+  }
+}
 
 @media screen and (max-width: 920px) {
   .main_container {
     height: 220vh;
+    width: 100%;
   }
 }
 @media screen and (max-width: 790px) {
   .main_container {
-    height: 270vh;
-  }
-}
-@media screen and (max-width: 670px) {
-  .main_container {
-    height: 300vh;
+    height: 580vh;
   }
 }
 @media screen and (max-width: 670px) {
@@ -30,6 +32,7 @@
     height: 580vh;
   }
 }
+
 .video_bcg {
   position: absolute;
   top: 0;
