@@ -18,6 +18,9 @@ const Main = () => {
           type="video/mp4"
         ></video>
       </div>
+      <div className="video_bcg">
+        <div className="bg"></div>
+      </div>
       <div className="content_container">
         <Planet />
       </div>
