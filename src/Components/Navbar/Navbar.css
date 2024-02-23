@@ -1,0 +1,19 @@
+.navbar_container {
+  background: #000;
+  height: 70px;
+  margin-top: -70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.25rem;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  padding-bottom: 0;
+}
+
+.title {
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
