@@ -11,6 +11,21 @@
   position: relative;
   z-index: 1;
 }
+@media screen and (max-width: 992px) {
+  .main_container {
+    height: 170vh;
+  }
+}
+@media screen and (max-width: 700px) {
+  .main_container {
+    height: 200vh;
+  }
+}
+@media screen and (max-width: 460px) {
+  .main_container {
+    height: 250vh;
+  }
+}
 .video_bcg {
   position: absolute;
   top: 0;
