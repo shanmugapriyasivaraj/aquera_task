@@ -10,13 +10,23 @@
   margin-left: 15px;
   margin-right: 15px;
   margin-top: 30px;
-  /* animation-name: spin;
-  animation-duration: 2s; */
 }
 @media screen and (max-width: 992px) {
   .card_container {
-    height: 250px;
-    width: 300px;
+    height: 330px;
+    width: 330px;
+  }
+  .card_flex {
+    font-size: 15px;
+    gap: 20px;
+  }
+  .card_title {
+    font-size: 15px;
+    font-weight: bolder;
+    width: 180px;
+  }
+  .given_det {
+    width: 240px;
   }
 }
 .card_details {
