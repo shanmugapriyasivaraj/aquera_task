@@ -11,16 +11,16 @@
   margin-right: 15px;
   margin-top: 30px;
 }
-@media screen and (max-width: 770px) {
+@media screen and (max-width: 990px) {
   .card_container {
-    height: 320px;
-    width: 300px;
-    margin-left: 150px;
+    height: 280px;
+    width: 330px;
+    margin-left: 180px;
   }
 }
 @media screen and (max-width: 770px) {
   .card_container {
-    height: 320px;
+    height: 300px;
     width: 330px;
     margin-left: 150px;
   }
